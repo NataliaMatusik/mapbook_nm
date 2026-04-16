@@ -2,6 +2,12 @@ from mapbook_lib.model import users
 from mapbook_lib.controller import read_data
 
 
+while True:
+    print('0 - zakoncz program')
+    print('1- wyswietl znajomych')
 
-
-read_data(users[1:])
+    choose=input('wybierz opcje: ')
+    if choose =='0':
+        break
+    if choose == '1':
+        read_data(users[1:])
