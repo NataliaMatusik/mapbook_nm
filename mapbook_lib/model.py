@@ -7,3 +7,16 @@ users: list = [
     {'username': 'filip', 'location': 'deblin', 'posts': 4,
      'usermessage': ['zyczenia4', 'kocham legie4', 'sprzedam opla4', 'kiwi4']},
 ]
+def add_users(users_data: list)->None:
+
+
+    print(users)
+    name=input('podaj imię: ')
+    location=input('podaj lokalizacje:')
+    posts=int(input('podaj liczbę postów'))
+    usermessage=[]
+    users.append({'username': name, 'location': location, 'posts': posts,
+         'usermessage': usermessage})
+    print(users)
+
+add_users(users)
